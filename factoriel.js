@@ -1,11 +1,13 @@
 var nombre = process.argv[2];
-//var i = 0 ;
+var compt = 1 ;
 var resultat = 0;
-for (let i = 0; i < nombre; i++) {
-    
+
+function name(params) {
     
 }
-console.log(resultat);
+
+
+//console.log(resultat);
 
 
 
@@ -16,4 +18,4 @@ console.log(resultat);
 
 
 
-// 6! = 6 * 5 * 4 * 3 * 2 * 1
+// 3! = 1 × 2 × 3 = 6
