@@ -1,8 +1,11 @@
 var nombre = process.argv[2];
-var compt = 1 ;
-var resultat = 0;
+
+
 
 function facto(n) {
+    if (n <= 0) {
+        return 1
+    }
     return n * facto( n - 1 )
     
 }
