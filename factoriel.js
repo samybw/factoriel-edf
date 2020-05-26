@@ -1,9 +1,11 @@
 var nombre = process.argv[2];
-var i = 0 ;
-var resultat ;
-while (i = nombre) {
-    nombre 
+//var i = 0 ;
+var resultat = 0;
+for (let i = 0; i < nombre; i++) {
+    
+    
 }
+console.log(resultat);
 
 
 
