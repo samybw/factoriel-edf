@@ -2,12 +2,13 @@ var nombre = process.argv[2];
 var compt = 1 ;
 var resultat = 0;
 
-function name(params) {
+function facto(n) {
+    return n * facto( n - 1 )
     
 }
 
 
-//console.log(resultat);
+console.log(facto(nombre));
 
 
 
